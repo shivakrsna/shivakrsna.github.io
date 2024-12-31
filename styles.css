@@ -1,0 +1,8 @@
+.collage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collage img {
+    width: 25%;
+}
