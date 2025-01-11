@@ -1,0 +1,29 @@
+
+
+.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  width: 100%;
+}
+  
+.scroll-container img {
+    padding: 10px;
+  }
+
+  /* Following CSS for mobile display */
+  @media(max-width:1000px)
+  {
+    .scroll-container {
+        background-color: #fb0707;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        width: 100%;
+        height: 25%;
+      }
+
+    }
+  
+  
